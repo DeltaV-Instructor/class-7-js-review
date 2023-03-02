@@ -32,14 +32,22 @@
 
 
 // // This loop will run forever, prompting the user to enter a number until they type 1. 
-// var stop = '1'; //SENTINAL
-// while(true){
-//   var input = prompt('Give a number. Type 1 to exit. ');
-//   if(input === stop) {
-//     break;
-//   }
-// }
+var stop = '1'; //SENTINAL
+while(true){
+  var input = prompt('Give a number. Type 1 to exit. ');
+  if(input === stop) {
+    break;
+  }
+}
 
+let answer = 'ice cream'
+
+while(true){
+  let input = prompt('What is your favorite dessert?');
+  if(input === answer){
+    break;
+  }
+}
 
 
 

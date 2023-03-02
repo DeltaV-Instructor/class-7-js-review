@@ -27,6 +27,28 @@ let makeSandwich = function () {
  * How could you use functions to make your code more readable?
  */
 
+
+
+
+// let imageElement = document.getElementById("imageSection");
+// let userInput = prompt("How many images would you like to see?");
+
+// for (let i = 0; i < userInputParsed; i = i + 1) {
+//   let listImage = document.createElement('li');
+//   let image = document.createElement('img');
+//   image.setAttribute('src', 'images/codeImage.png');
+//   image.setAttribute('alt', 'pic of code');
+//   listImage.append(image);
+//   imageElement.append(listImage);
+// }
+
+
+
+
+
+
+
+
 let imageElement = document.getElementById("imageSection");
 console.log(imageElement);
 
@@ -55,7 +77,7 @@ for (let i = 0; i < userInputParsed; i = i + 1) {
   let image = document.createElement('img');
   image.setAttribute('src', 'images/codeImage.png');
   image.setAttribute('alt', 'pic of code');
-  
+
   //give the image to the list <li>image number 1 image</li>
   listImage.append(image);
   imageElement.append(listImage);
