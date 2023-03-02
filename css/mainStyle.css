@@ -5,7 +5,12 @@ body {
   margin: 0 auto;
 }
 
-
+main {
+  margin-top: 100px;
+}
+h2 {
+  font-size: 45px;
+}
 header {
   text-align: center;
   background-color: rgb(47, 124, 16);

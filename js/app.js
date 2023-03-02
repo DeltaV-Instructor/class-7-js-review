@@ -1,51 +1,32 @@
 "use strict";
 console.log("app.js file is connected.");
 
-/** 
-  REVIEW these concepts. 
+// let makeSandwich = function(bread,meat,cheese){
+// // console.log('sandwich made of: ',bread, meat, cheese);
+// return 'Here is a sandwich with ' + bread + ' and ' + meat + ' and ' + cheese;
+// }
+// let ourSandwich = makeSandwich('wheat','turkey','gouda');
+// console.log("🚀 ", ourSandwich);
 
-JavaScript - Coding language of the web. Used to create and control dynamic website content.
-conditionals - A series of checks that determine an outcome. If something happens, the do this. If that does not happen but this happens, do this. If all else fails, then do this last thing.
-operators - Series of symbols that perform arithmetic on numbers. (+, -, *, **, /, %. ++, --)
-data types - A particular kind of data item, integer(number), string (words), boolean (true/false), array. There are more advanced data types that will be introduced in 201,301,401.
-variable - a representation or nick name for some type of data.
- */
-
-let clientName = prompt("What is your name?");
-let confirmMessage = confirm("Do you want to continue?");
-
-// function getTime(){}
-
-function getTime() {
-  //create variable and declare
-  let greeting;
-  //ask for user input
-  let userTime = prompt(
-    "What time is it, use Military time. But just first two digits."
-  );
-  //Determine the response.
-
-  if (userTime > 18 && userTime < 24) {
-    greeting = "Good Evening";
-  } else if (userTime > 12 && userTime < 18) {
-    greeting = "Good Afternoon";
-  } else if (userTime > 6 && userTime <= 12) {
-    greeting = "Good Morning!";
-  } else {
-    greeting = "Go to BED!";
+//function expression 
+let makeSandwich = function(){
+  let bread = prompt("What type of bread?");
+  let meat = prompt("What type of meat or veggies?");
+  let cheese = prompt("What type of cheese?");
+  return 'Here is a sandwich with ' + bread + ' and ' + meat + ' and ' + cheese;
   }
-  console.log("greeting", greeting);
-
-  // document.write("Hello " + userName + " " + greeting);
-}
-
-//this will call our functions. we are invoking the function call. 
-getTime();
+  // let ourSandwich = makeSandwich();
+  // console.log("🚀 ", ourSandwich);
 
 
 
-//1. use function key word
-//2. add a function name
-//3. we need add () after the name
-//4. we add {} after the ()
-//5. we put our in between the curly braces {} code block. 
+
+
+  /**
+ * Add validation on one of the user inputs.
+ * Keep asking until an acceptable value is entered.
+ * Show an image related to your page's topic, repeated within your page.
+ * Prompt the user with a relevant question for a number (e.g.: "How many cats do you want?" or "What star rating      would you give, 1-5?")
+ * Use a loop in your JavaScript code to show the image that many times.
+ * How could you use functions to make your code more readable?
+ */
