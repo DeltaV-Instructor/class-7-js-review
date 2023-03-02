@@ -58,3 +58,8 @@ footer {
   clear: both;
   background-color: rgb(7, 112, 7);
 }
+
+img{
+  height: 200px;
+  width: 200px;
+}
